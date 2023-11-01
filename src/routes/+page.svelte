@@ -51,7 +51,7 @@
 
 	<Tabs {activeItem} {items} on:tabChange={tabChange}/>
 	{#if activeItem === 'Tab 1'} 
-	<p>Hello</p>
+	<p>Hi</p>
 	{:else if activeItem === 'Tab 2'}
 	<p>Goodbye</p>
 	{/if}
