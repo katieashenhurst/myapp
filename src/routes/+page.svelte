@@ -51,9 +51,9 @@
 
 	<Tabs {activeItem} {items} on:tabChange={tabChange}/>
 	{#if activeItem === 'Tab 1'} 
-	<p>Text Goes Here</p>
+	<p>Hello</p>
 	{:else if activeItem === 'Tab 2'}
-	<p>Other Text Goes Here</p>
+	<p>Goodbye</p>
 	{/if}
 
 <!--BUTTON-->
