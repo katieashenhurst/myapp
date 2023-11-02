@@ -1,7 +1,7 @@
 <script>
 	import Header from './Header.svelte';
 	import './styles.css';
-	import 'carbon-components-svelte/css/all.css'
+	import 'carbon-components-svelte/css/all.css';
 </script>
 
 <div class="app">
