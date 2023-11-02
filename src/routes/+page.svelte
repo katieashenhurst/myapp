@@ -17,13 +17,13 @@
 
 <!--TABS-->
 	<Tabs>
-		<Tab label="Tab label 1" />
-		<Tab label="Tab label 2" />
-		<Tab label="Tab label 3" />
+		<Tab label="The Joke" />
+		<Tab label="The Answer" />
+		<Tab label="An Inspiring Quote" />
 		<svelte:fragment slot="content">
-		  <TabContent>Hello</TabContent>
-		  <TabContent>There</TabContent>
-		  <TabContent>You look nice today.</TabContent>
+		  <TabContent>Why don't dinosaurs talk? </TabContent>
+		  <TabContent> Because they're dead.</TabContent>
+		  <TabContent>Whatever you do, always give 100%. Unless you're donating blood.</TabContent>
 		</svelte:fragment>
 	  </Tabs>
 
